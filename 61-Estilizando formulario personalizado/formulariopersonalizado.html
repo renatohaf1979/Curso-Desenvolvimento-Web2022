@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>Abra a tag form e coloque tudo isso dentro:</h1>
+    <img src="imagens/Anotação 2022-02-14 001215.png" alt="">
+    <h1> Estelizando Formulario</h1>
+
+    <form>
+
+        <fieldset> <!--Responsavel para agrupar dados semelhantes-->
+            <legend>Detalhes de contato</legend>
+            <div>
+                <label for="nome">Nome:</label>
+                <input type="text" name="nome" id="nome">
+            </div>
+
+            <div>
+                <label for="nome">Email:</label>
+                <input type="text" name="email" id="email">
+            </div>
+
+            <div>
+                <label for="nome">Url:</label>
+                <input type="text" name="url" id="url">
+            </div>
+        </fieldset>
+
+
+
+         <!--adicionar outro fieldset para area comentarios-->  
+        <fieldset> 
+            <legend>Comentarios</legend>
+            <div>
+                <label for="mensagem">Mensagem</label>
+
+                <!--textarea: adiciona a caixa comentarios-->  
+                <textarea name="mensagem" id="mensagem" cols="30" rows="10"></textarea>
+                
+            </div>
+        </fieldset>
+
+        <!--adicionar outro fieldset para area comentarios-->  
+        <fieldset> 
+            <legend>Lembrar de mim</legend>
+
+            <div>
+                <label for="">
+                   <input type="radio" name="lembrar" id="sim"> Sim
+                </label>
+            </div>
+
+            <div>
+                <label for="">
+                   <input type="radio" name="lembrar" id="nao"> Não
+                </label>
+            </div>
+        </fieldset>
+
+
+
+        
+
+       
+    
+</body>
+</html>

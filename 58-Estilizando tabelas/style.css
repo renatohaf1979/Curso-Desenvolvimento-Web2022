@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+body {
+
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+table {
+    width: 600px;
+}
+
+th, td {
+   
+    padding: 7px;
+}
+
+th {
+    text-transform: uppercase; /* Transforma em mauiculo*/
+    border-top: 1pix solid red;
+    border-bottom: 1pix solid red;
+    text-align: left;
+    font-size: 20px;
+    letter-spacing: 0.1em;
+}
+
+/*Ao abrir essa class "alternado", vai em tr e coloque essa class em sim outra não*/
+tr.alternado {
+    background-color: rgb(225, 241, 241);
+}
+
+
+/*Ao abrir essa class "numero", vai em td e coloque essa class onde esta os preços*/
+.numero {
+    text-align: right; 
+}
+
+tr:hover {
+    background-color: aqua;
+}
+
+
+

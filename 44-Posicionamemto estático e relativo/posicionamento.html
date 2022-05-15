@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posicionamento Estatico e Relativo</title>
+    <style>
+    body {background-color: darkcyan;}
+    #container {
+      background-color: aliceblue;  
+      width: 720px;
+      margin: 10px auto; /* margem lateral esquerda e direita sempre ficara automatica sempre que diminuir a tela*/
+      padding: 10px;}
+    h1 {}
+
+    p {
+width: 300px;}
+
+    .relative{
+border: 1px solid red;
+position: relative;
+top: 40px;
+left: 80px;
+
+</style>
+</head>
+
+<body>
+    <div id="container">
+<h1>Posicionamentos</h1>
+
+<p>P1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit architecto assumenda blanditiis repellendus cum ipsum sint nisi veniam aliquam a ipsam laboriosam, sequi iste temporibus ad laborum vero earum repudiandae!</p>
+
+<p class="relative"> P2 Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit architecto assumenda blanditiis repellendus cum ipsum sint nisi veniam aliquam a ipsam laboriosam, sequi iste temporibus ad laborum vero earum repudiandae!</p>
+
+<p>P3 Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit architecto assumenda blanditiis repellendus cum ipsum sint nisi veniam aliquam a ipsam laboriosam, sequi iste temporibus ad laborum vero earum repudiandae!</p>
+    </div>
+    
+</body>
+</html>

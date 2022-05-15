@@ -1,0 +1,38 @@
+@charset "UTF-8";
+body {
+    background-color: antiquewhite;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+fieldset {
+    margin: 1em 0;
+    padding: 1em;
+    border: 1px solid #ccc;
+    background: #f8f8f8;
+}
+
+legend {
+    font-weight: bold;
+}
+
+label {
+    /*Ele jogara os nomes para coma das caixas de texto*/
+    display: block; 
+
+    /*Ao passar o mouse nos nomes agora aparecera a mãozinha*/
+    cursor: pointer; 
+}
+
+/*Vamos colocar um colchete para definir um seletor de atributo, com isso ele ira selecionar os input que o atributo type é o text, e não formatara o atributo de type radio (caixas de sim ou não*/
+input[type = "text"] {
+    width: 20em;
+   
+}
+
+
+textarea {
+    width: 40em;
+    height: 20em;
+
+}

@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+
+    <title>Bootstrap - breakpoints</title>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <style type="text/css">
+        
+       
+        /****************************************/
+        /*Extra small devices (portrait phones, less than 576px)*/
+        @media (max-width: 575.98px) {
+            body{
+                background: #870000;
+
+            }
+            .cor {
+           color: white;
+       }
+        }
+
+        /*Small devices (landscape phones, 576px and up)*/
+        @media (min-width: 576px) and (max-width: 767.98px) {
+            body {
+                background: red;
+            }
+            .cor {
+           color: white;
+       }
+        }
+
+        /*Medium devices (tablets, 768px and up)*/
+        @media (min-width: 768px) and (max-width: 991.98px) {
+            body {
+                background: blue;
+            }
+            .cor {
+           color: white;
+       }
+        }
+
+        /*Large devices (desktops, 992px and up)*/
+        @media (min-width: 992px) and (max-width: 1199.98px) {
+            body {
+                background: yellow;
+            }
+        }
+
+        /*Extra large devices (large desktops, 1200px and up)*/
+        @media (min-width: 1200px) {
+            body {
+                background: rgb(147, 231, 98);
+            }
+        }
+
+    </style>
+
+  </head>
+
+  <body style="margin-bottom: 200px; width: 1000px; margin: 0 auto;">
+
+    <h1 class="cor" >REDUZA A TELA PARA VER O BACKGROUND MUDANDO DE ACORDO COM O TAMANHO DA TELA</h1>
+    <br><br>
+    <h2 class="cor">Tela com largura maxima de 1200px a tela sera verde</h2>
+    <br><br>
+    <h2 class="cor">Tela com largura maxima de 992px a tela sera amarela</h2>
+    <br><br>
+    <h2 class="cor">Tela com largura maxima de 768px a tela sera azul</h2>
+    <br><br>
+    <h2 class="cor">Tela com largura maxima de 576px a tela sera vermelha</h2>
+    <br><br>
+    <h2 class="cor">Tela com largura maxima de 575.98px a tela sera marrom</h2>
+    <br><br>
+   
+    
+   
+    
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

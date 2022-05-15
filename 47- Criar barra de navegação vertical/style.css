@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+body { 
+    font-size: 20px;
+    font-weight: bolder;}
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    width: 200px;
+    height: 40px;
+    list-style-type: none;}
+
+ul a {
+    color: #000;
+    width: 200px;
+    height: 40px;
+    display: block;
+    background: #f7b600 url(imagens/menu.png) no-repeat left bottom;
+    text-decoration: none;
+    text-indent: 30px;
+    line-height: 40px ;}
+
+a:hover {
+    background-position: right bottom;
+    background-color: #f99200;
+    color: aliceblue;}
+
+#homer .homer a,
+#sobre .sobre a,
+#assine .assine a,
+#mundo .mundo a,
+#noticias .noticias a,
+#cursos .cursos a
+ {
+    background-position: right bottom;
+    background-color: #f99200;
+    color: aliceblue;
+}

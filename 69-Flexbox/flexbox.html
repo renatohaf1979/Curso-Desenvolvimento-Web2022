@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+    <style>
+        #container {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            background-color: antiquewhite;
+            
+            height: 600px;
+            margin-left: 20px;
+            border: 1px solid black;
+            display: flex;
+           /*row| row-reverse| column | column-reverse*/
+            flex-direction: row;
+
+            /*now-wrap| wrap| wrap-reverse|*/
+            flex-wrap: nowrap;
+
+            /*flex-start| flex-end| center|space-between| space-around*/
+            justify-content: space-around;
+
+            /*stretch| center| flex-start|flex-end| baseline*/
+            align-items: baseline;
+
+        }
+
+        .item {
+            background-color: aqua;
+            border: 1px solid black;
+            font-size: 20px;
+            padding: 5px;
+            margin: 10px;
+           
+        }
+
+        h2 {
+            color: red;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        p {
+            font-size: 22px;
+            color: blue;
+            font-weight: bold;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+
+</head>
+<body>
+    <h1>Flexbox e seus tipos de propriedades:</h1>
+
+    <h2>align-items: baseline</h2>
+
+    <p>Observe que mesmo aumentado o padding da caixa 01, as outras caixas mantem o alinhamento pela nome da caixa 01:</p>
+    <div id="container">
+        <div class="item" style="padding-top: 80px;">Caixa 01</div>
+        <div class="item">Caixa 02</div>
+        <div class="item">Caixa 03</div>
+        <div class="item">Caixa 04 <br> <br>Mais conteudos</div>
+        
+    </div>
+</body>
+</html>

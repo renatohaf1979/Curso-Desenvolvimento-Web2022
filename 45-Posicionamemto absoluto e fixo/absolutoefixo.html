@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posicionamento Estatico e Relativo</title>
+    <style>
+    body {background-color: darkcyan;}
+
+    .fixed {
+        background-color: rgb(64, 238, 238);
+        position: fixed;
+        top: 0px;
+        right: 0px;
+        border: 1px solid red;
+        color: rgb(12, 40, 77);
+        
+    }
+    
+    #container {
+      background-color: aliceblue; 
+      height: 1000; 
+      width: 900px;
+      margin: 10px auto; /* margem lateral esquerda e direita sempre ficara automatica sempre que diminuir a tela*/
+      padding: 10px;
+    position: relative;}
+    h1 {
+        background-color: cornflowerblue;
+    }
+
+    p {
+width: 300px;}
+
+.absolute{
+border: 1px solid red; 
+background-color: darkkhaki;
+right: 40px;
+position: absolute;
+
+}
+
+
+
+
+.relativa {
+border: 1px solid red;
+position: relative;
+left: 200px;
+
+}
+</style>
+</head>
+
+<body>
+    <div id="container">
+<h1>Posicionamentos 1</h1>
+
+<p>P1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit architecto assumenda blanditiis repellendus cum ipsum sint nisi veniam aliquam a ipsam laboriosam, sequi iste temporibus ad laborum vero earum repudiandae!</p>
+
+<p class="fixed"> P2 Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit architecto assumenda blanditiis repellendus cum ipsum sint nisi veniam aliquam a ipsam laboriosam, sequi iste temporibus ad laborum vero earum repudiandae!</p>
+
+<p class="absolute">P3 Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit architecto assumenda blanditiis repellendus cum ipsum sint nisi veniam aliquam a ipsam laboriosam, sequi iste temporibus ad laborum vero earum repudiandae!</p>
+<h1>Posicionamentos 2</h1>
+<p>P1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit architecto assumenda blanditiis repellendus cum ipsum sint nisi veniam aliquam a ipsam laboriosam, sequi iste temporibus ad laborum vero earum repudiandae!</p>
+
+<p class="relativa"> P2 Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit architecto assumenda blanditiis repellendus cum ipsum sint nisi veniam aliquam a ipsam laboriosam, sequi iste temporibus ad laborum vero earum repudiandae!</p>
+
+<p>P3 Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit architecto assumenda blanditiis repellendus cum ipsum sint nisi veniam aliquam a ipsam laboriosam, sequi iste temporibus ad laborum vero earum repudiandae!</p>
+<p>P1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit architecto assumenda blanditiis repellendus cum ipsum sint nisi veniam aliquam a ipsam laboriosam, sequi iste temporibus ad laborum vero earum repudiandae!</p>
+<h1>Posicionamentos 1</h1>
+<p > P2 Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit architecto assumenda blanditiis repellendus cum ipsum sint nisi veniam aliquam a ipsam laboriosam, sequi iste temporibus ad laborum vero earum repudiandae!</p>
+
+<p>P3 Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit architecto assumenda blanditiis repellendus cum ipsum sint nisi veniam aliquam a ipsam laboriosam, sequi iste temporibus ad laborum vero earum repudiandae!</p>
+<p>P1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit architecto assumenda blanditiis repellendus cum ipsum sint nisi veniam aliquam a ipsam laboriosam, sequi iste temporibus ad laborum vero earum repudiandae!</p>
+
+<p > P2 Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit architecto assumenda blanditiis repellendus cum ipsum sint nisi veniam aliquam a ipsam laboriosam, sequi iste temporibus ad laborum vero earum repudiandae!</p>
+
+<p>P3 Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit architecto assumenda blanditiis repellendus cum ipsum sint nisi veniam aliquam a ipsam laboriosam, sequi iste temporibus ad laborum vero earum repudiandae!</p>
+    </div>
+    
+</body>
+</html>

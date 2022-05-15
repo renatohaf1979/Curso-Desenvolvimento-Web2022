@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <title>Bootstrap - Alinhamento de textos</title>
+  </head>
+
+  <body style="margin-bottom: 200px;padding: 16px;">
+    <h1>Alinhando paragrafos</h1>
+    <h2>Paragrafo desalinhado (Na redução da tela)</h2>
+
+    <!-- Parágrafo justificado -->
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vestibulum elementum quam, a viverra ligula fringilla tempus. Ut tempor, dui eu semper aliquet, sem nisi pellentesque libero, suscipit porttitor risus magna vel lorem.
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vestibulum elementum quam, a viverra ligula fringilla tempus. Ut tempor, dui eu semper aliquet, sem nisi pellentesque libero, suscipit porttitor risus magna vel Lorem ipsum dolor sit amet consectetur. Cupiditate distinctio rem cumque. Provident aliquid quidem, eos, est, veniam voluptatem officia quibusdam iste magnam nihil ut autem enim eveniet! Eaque, laudantium! Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus omnis dignissimos harum quas illo, sint dolores repudiandae cum rerum ab consequatur, eum nostrum ad adipisci soluta optio incidunt cumque reprehenderit.</p>
+    <h2>Paragrafo alinhado (Na redução da tela)</h2>
+
+    <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vestibulum elementum quam, a viverra ligula fringilla tempus. Ut tempor, dui eu semper aliquet, sem nisi pellentesque libero, suscipit porttitor risus magna vel lorem.
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vestibulum elementum quam, a viverra ligula fringilla tempus. Ut tempor, dui eu semper aliquet, sem nisi pellentesque libero, suscipit porttitor risus magna vel Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate distinctio rem cumque. Provident aliquid quidem, eos, est, veniam voluptatem officia quibusdam iste magnam nihil ut autem enim eveniet! Eaque, laudantium! Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus omnis dignissimos harum quas illo, sint dolores repudiandae cum rerum ab consequatur, eum nostrum ad adipisci soluta optio incidunt cumque reprehenderit.</p>
+  
+    <br>
+    <br>
+
+    <!-- 
+        Alinhamento responsivo - 
+        class text-<tela>-<alinhamento>
+            tela: sm, md, lg, xl
+            alinhamento: left, center, right
+     -->
+     <h1>Alinhamento Responsivo</h1>
+    <p class="text-sm-right">tela &gt;= 576px</p><!--Small-->
+    <p class="text-md-center">tela &gt;=  768px</p><!--Medium-->
+    <p class="text-lg-center">tela &gt;= 992px</p><!--Large-->
+    <p class="text-xl-center">tela &gt;= 1200px</p><!--Extra Large-->
+
+    <br>
+    <br>
+
+    <!-- Elemento Block para inline -->
+    <h1>Elemento Block para inline</h1>
+    <h1 class="bg-success d-inline">Lorem ipsum dolor</h1>
+    <p class="bg-success d-inline">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+    <br>
+    <br>
+
+    <!-- Elemento Inline para Block -->
+    <h1>Elemento Inline para Block</h1>
+    <span class="bg-success d-block">Lorem ipsum dolor 1</span>
+    <br>
+    <span class="bg-success d-block">Lorem ipsum dolor 2</span>
+
+    <br>
+    <br>
+
+    <!-- Elemento Inline-Block -->
+    <h1>Elemento Inline-Block</h1>
+    <div class="bg-warning">
+        <h3 class="bg-success d-inline-block">Lorem ipsum</h3>
+        <h3 class="bg-success d-inline-block" style="margin-top: 50px;width: 400px;">Lorem ipsum dolor</h3>
+    </div>
+    <br><br><br>
+
+    <h1>Colar menu quando rolar até o topo da tela</h1>
+    <h2>Ao rolar a tela para cima</h2>
+    <ul class="list-inline bg-warning sticky-top">
+      <li class="list-inline-item">Item 1</li>
+      <li class="list-inline-item">Item 2</li>
+      <li class="list-inline-item">Item 3</li>
+      <li class="list-inline-item">Item 4</li>
+    </ul>
+
+
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam praesentium accusantium quibusdam atque voluptatem dolorum tempora facilis fuga repudiandae inventore, autem sed recusandae eveniet dolor nemo delectus odit id commodi?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam praesentium accusantium quibusdam atque voluptatem dolorum tempora facilis fuga repudiandae inventore, autem sed recusandae eveniet dolor nemo delectus odit id commodi?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam praesentium accusantium quibusdam atque voluptatem dolorum tempora facilis fuga repudiandae inventore, autem sed recusandae eveniet dolor nemo delectus odit id commodi?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam praesentium accusantium quibusdam atque voluptatem dolorum tempora facilis fuga repudiandae inventore, autem sed recusandae eveniet dolor nemo delectus odit id commodi?</p>
+  <br>
+  <h2>Título 1</h2>
+  <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam praesentium accusantium quibusdam atque voluptatem dolorum tempora facilis fuga repudiandae inventore, autem sed recusandae eveniet dolor nemo delectus odit id commodiLorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam praesentium accusantium quibusdam atque voluptatem dolorum tempora facilis fuga repudiandae inventore, autem sed recusandae eveniet dolor nemo delectus odit id commodi?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam praesentium accusantium quibusdam atque voluptatem dolorum tempora facilis fuga repudiandae inventore, autem sed recusandae eveniet dolor nemo delectus odit id commodi??Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam praesentium accusantium quibusdam atque voluptatem dolorum tempora facilis fuga repudiandae inventore, autem sed recusandae eveniet dolor nemo delectus odit id commodi?</p>
+  <h2>Título 2</h2>
+  <br>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam praesentium accusantium quibusdam atque voluptatem dolorum tempora facilis fuga repudiandae inventore, autem sed recusandae eveniet dolor nemo delectus odit id commodi?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam praesentium accusantium quibusdam atque voluptatem dolorum tempora facilis fuga repudiandae inventore, autem sed recusandae eveniet dolor nemo delectus odit id commodi?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam praesentium accusantium quibusdam atque voluptatem dolorum tempora facilis fuga repudiandae inventore, autem sed recusandae eveniet dolor nemo delectus odit id commodi?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam praesentium accusantium quibusdam atque voluptatem dolorum tempora facilis fuga repudiandae inventore, autem sed recusandae eveniet dolor nemo delectus odit id commodi?</p>
+  <br>
+  <h2>Título 3</h2>
+  <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam praesentium accusantium quibusdam atque voluptatem dolorum tempora facilis fuga repudiandae inventore, autem sed recusandae eveniet dolor nemo delectus odit id commodiLorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam praesentium accusantium quibusdam atque voluptatem dolorum tempora facilis fuga repudiandae inventore, autem sed recusandae eveniet dolor nemo delectus odit id commodi?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam praesentium accusantium quibusdam atque voluptatem dolorum tempora facilis fuga repudiandae inventore, autem sed recusandae eveniet dolor nemo delectus odit id commodi??Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam praesentium accusantium quibusdam atque voluptatem dolorum tempora facilis fuga repudiandae inventore, autem sed recusandae eveniet dolor nemo delectus odit id commodi?</p>
+  <br>
+  <h2>Título 4</h2>
+
+
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam praesentium accusantium quibusdam atque voluptatem dolorum tempora facilis fuga repudiandae inventore, autem sed recusandae eveniet dolor nemo delectus odit id commodi?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam praesentium accusantium quibusdam atque voluptatem dolorum tempora facilis fuga repudiandae inventore, autem sed recusandae eveniet dolor nemo delectus odit id commodi?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam praesentium accusantium quibusdam atque voluptatem dolorum tempora facilis fuga repudiandae inventore, autem sed recusandae eveniet dolor nemo delectus odit id commodi?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam praesentium accusantium quibusdam atque voluptatem dolorum tempora facilis fuga repudiandae inventore, autem sed recusandae eveniet dolor nemo delectus odit id commodi?</p>
+  <br>
+  <h2>Título 5</h2>
+  <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam praesentium accusantium quibusdam atque voluptatem dolorum tempora facilis fuga repudiandae inventore, autem sed recusandae eveniet dolor nemo delectus odit id commodiLorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam praesentium accusantium quibusdam atque voluptatem dolorum tempora facilis fuga repudiandae inventore, autem sed recusandae eveniet dolor nemo delectus odit id commodi?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam praesentium accusantium quibusdam atque voluptatem dolorum tempora facilis fuga repudiandae inventore, autem sed recusandae eveniet dolor nemo delectus odit id commodi??Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam praesentium accusantium quibusdam atque voluptatem dolorum tempora facilis fuga repudiandae inventore, autem sed recusandae eveniet dolor nemo delectus odit id commodi?</p>
+
+
+    
+
+
+
+
+    
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

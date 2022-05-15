@@ -1,0 +1,111 @@
+
+ /*Não esquecer de colocar os prefixos para não haver incompatibilidade entre navegadores*/
+
+  /*Para o Chrone: -webkit-*/
+  /*Para o Mozila: -moz-*/
+  /*Para o Opera: -o-*/
+
+
+  /*Fazer a configuração para o 3 navegadores:*/
+
+/*--------------------------------------------------------------------*/
+/*Fazer a configuração para o Chrone*/
+@-webkit-keyframes caixa-animacao {
+
+    /* from Significa "de"*/
+    from {
+        background-color: red;
+        border-radius: 0px;
+        top: 0px;
+        left: 0px;
+
+    }
+
+    /* to Significa "para"*/
+    to {
+        background-color: green;
+        border-radius: 300px;
+        top: 200px;
+        left: 200px;
+    }
+}
+/*--------------------------------------------------------------------*/
+/*Fazer a configuração para o Mozila*/
+@-moz-keyframes caixa-animacao {
+
+    /* from Significa "de"*/
+    from {
+        background-color: red;
+
+    }
+
+    /* to Significa "para"*/
+    to {
+        background-color: green;
+
+    }
+}
+/*--------------------------------------------------------------------*/
+/*Fazer a configuração para o Opera*/
+@-o-keyframes caixa-animacao {
+
+    /* from Significa "de"*/
+    from {
+        background-color: red;
+
+    }
+
+    /* to Significa "para"*/
+    to {
+        background-color: green;
+
+    }
+}
+
+/*--------------------------------------------------------------------*/
+/*Deixar a implementação padrão*/
+@keyframes caixa-animacao {
+
+    /* from Significa "de"*/
+    from {
+        background-color: red;
+        border-radius: 0px;
+        top: 0px;
+        left: 0px;
+        
+
+    }
+
+    /* to Significa "para"*/
+    to {
+        background-color: green;
+        border-radius: 300px;
+        top: 200px;
+        left: 200px;
+        
+
+    }
+}
+/*--------------------------------------------------------------------*/
+
+#caixa1 {
+   width: 300px;
+    height: 300px;
+    background-color: red;
+    -webkit-animation-name: caixa-animacao;  /*Define qual o nome da animação a utilizar*/
+    -moz-animation-name: caixa-animacao;  /*Define qual o nome da animação a utilizar*/
+    -o-animation-name: caixa-animacao;  /*Define qual o nome da animação a utilizar*/
+    animation-duration: 5s;  /*Duração da animação*/
+    animation-delay: 3s; /*Duração do inicio da animação*/
+    animation-iteration-count: 8; /*Define quantas vezes vai se repetir*/
+    animation-direction: alternate; /*Define a animação depois volta a posição inicial*/
+  /*animation-direction: alternate; Define a animação de tras para a frente*/ 
+
+    /*Fazer essa intrução em uma unica linha*/
+    animation: caixa-animacao 5s 3s 8 alternate;
+    position: relative; /*Colocar essa posição para que as caixas se movimentem*/
+
+
+
+}
+

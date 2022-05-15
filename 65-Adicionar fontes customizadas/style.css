@@ -1,0 +1,19 @@
+@font-face {
+    font-family: minicreft;
+    src: url(Fontes/Minecrafter.woff);
+}
+
+@font-face {
+    font-family: gotica;
+    src: url(Fontes/OldLondon.woff);
+}
+
+h1 {
+    font-family: minicreft;
+    color: blue;
+
+}
+p {
+    font-family: gotica;
+    font-size: 2em;
+}

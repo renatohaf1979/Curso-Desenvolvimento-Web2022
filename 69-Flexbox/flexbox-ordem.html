@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+    <style>
+        #container {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            background-color: antiquewhite;
+            height: 600px;
+            margin-left: 20px;
+            border: 1px solid black;
+            display: flex;
+           
+        }
+
+        h2 {
+            color: red;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        p {
+            font-size: 22px;
+            color: blue;
+            font-weight: bold;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .item {
+            /*width: 200px;*/
+            height: 100px;
+            background-color: aqua;
+            border: 1px solid black;
+            font-size: 20px;
+            padding: 5px;
+            margin: 10px;
+            flex-grow:0;
+            flex-basis: 100px;
+           
+        }
+
+        .item01  { flex-grow: 2;}            
+
+        .item02  {              }
+
+        .item03  { flex-grow: 1;}
+
+        .item03  {              }
+
+     </style>
+
+</head>
+<body>
+    <h1>Flexbox e seus tipos de propriedades:</h1>
+
+    <h2>flex-basis</h2>
+
+    <p>Ordem padrão:</p>
+    <div id="container">
+        <div class="item item01">Caixa 01</div>
+        <div class="item item02">Caixa 02</div>
+        <div class="item item03">Caixa 03</div>
+        <div class="item ">Caixa 04</div>
+        
+    </div>
+</body>
+</html>
